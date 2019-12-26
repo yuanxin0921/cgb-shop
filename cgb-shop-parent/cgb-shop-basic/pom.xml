@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cgb-shop-parent</artifactId>
+        <groupId>com.andy</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modules>
+        <module>cgb-shop-basic-springcloud-euraka</module>
+        <module>cgb-shop-basic-apollo-config-server</module>
+        <module>cgb-shop-basic-springcloud-zuul</module>
+        <module>cgb-shop-basic-xuexueli-xxljob</module>
+        <module>cgb-shop-basic-codingapi-icn</module>
+        <module>cgb-shop-basic-codingapi-zipkin</module>
+    </modules>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>cgb-shop-basic</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>cgb-shop-basic</name>
+</project>

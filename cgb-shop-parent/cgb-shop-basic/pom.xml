@@ -9,6 +9,8 @@
     <modules>
         <module>cgb-shop-basic-springcloud-euraka</module>
         <module>cgb-shop-basic-apollo-config-server</module>
+        <module>cgb-shop-basic-spring-cloud-config-server</module>
+        <module>cgb-shop-basic-spring-cloud-config-server-01</module>
         <module>cgb-shop-basic-springcloud-zuul</module>
         <module>cgb-shop-basic-xuexueli-xxljob</module>
         <module>cgb-shop-basic-codingapi-icn</module>

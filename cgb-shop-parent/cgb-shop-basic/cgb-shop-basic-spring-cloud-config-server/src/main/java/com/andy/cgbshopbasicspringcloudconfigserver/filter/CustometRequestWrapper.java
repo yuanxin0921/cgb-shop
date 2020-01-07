@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServletRequestWrapper;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 
+/**
+ * 由于request只能接受一次，只能通过这种方式修改body值
+ */
 public class CustometRequestWrapper extends HttpServletRequestWrapper {
     public CustometRequestWrapper(HttpServletRequest request) {
         super(request);
